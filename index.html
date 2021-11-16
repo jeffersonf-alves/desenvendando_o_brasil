@@ -11,11 +11,11 @@
 <body>
 <header id="header">
     <div class="container">
-        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <nav class="navbar " role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-              <a class="navbar-item">
-                <img src="img/logo/leaves.png" width="40" height="40">
-              </a>
+              <div class="navbar-item">
+                <img src="img/logo/leaves.png" width="32" height="50">
+              </div>
           
               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
@@ -60,13 +60,16 @@
     </div>
     
 </header>
-<section id="section01">
-
-
-
+<section id="section01" class="container section01">
+    <div class="fundo01">
+    </div>
+    <div class="fundo02"></div>
+    
 </section>
-<footer id="footer">
-
+<h1 class="title is-3 has-text-dark text-center" id="tituloMain">
+    {{  exemplo }}
+</h1>
+<footer>
 
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>

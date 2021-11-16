@@ -1,4 +1,24 @@
-header {
-    background-color: cadetblue;
-    height: 500px;
+
+.section01 {
+    display: flex;
+    justify-content: space-between;    
 }
+
+.fundo01 {
+    width: 575px;
+    height: 450px;
+    background-image: url('../img/fundo/fundo07.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.fundo02 {
+    width: 575px;
+    height: 450px;
+    background-image: url('../img/fundo/fundo02.jpg');
+    background-size: cover;
+}
+
